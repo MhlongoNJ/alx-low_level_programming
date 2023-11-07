@@ -22,7 +22,9 @@ return (i);
 
 /**
 * append_text_to_file - a function that appends text at the end of a file.
-* @filename: where filename is the name of the file and text_content is the NULL terminated string to add at the end of the file, Do not create the file if it does not exist, If filename is NULL return -1
+* @filename: where filename is the name of the file
+* and text_content is the NULL terminated string to add at the end of the file,
+* Do not create the file if it does not exist, If filename is NULL return -1
 * @text_content: text to write
 *
 * Return: 1 on success and -1 on failure
